@@ -52,7 +52,7 @@ class _MyAppState extends State<MyApp> {
             Text('Running on: $_platformVersion\n'),
             RaisedButton(
               onPressed: () {
-                FlutterPluginOpenNative.openNative("https://www.baidu.com");
+                FlutterPluginOpenNative.openNative("https://blog.huangyuanlove.com");
               },
               child: Text("打开网页"),
             ),

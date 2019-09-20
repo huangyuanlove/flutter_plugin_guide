@@ -45,8 +45,6 @@ public class FlutterPluginOpenNativePlugin implements MethodCallHandler {
       intent.setData(Uri.parse(call.arguments.toString()));
       activity.startActivity(intent);
     }
-
-
     else {
       result.notImplemented();
     }
